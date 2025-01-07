@@ -1,3 +1,11 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body {
     display: flex;
     align-items: center;
@@ -22,13 +30,18 @@ body {
     height: 50px;
     border-radius: 19px;
     padding-top: 30px;
+    cursor: pointer;
 
 
     &:hover{
-        transform: scale(2)  translateY(30px);
-        transition: all ease 2s;
-        background-color: aqua;
-        color: red;
+        
+        transition: all ease 4s;
+        background-image: linear-gradient( red, green, blue, aqua, yellow);
+        color: lightblue ;
+      
+        cursor: pointer;
         
     }
+
+    
 }
